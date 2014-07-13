@@ -2,12 +2,12 @@ body {
   width: 800px;
   height: 400px;
   background: url(./images/background.jpg) top left no-repeat;
+  font-family: sans-serif;
 }
 .wrapper {
   position: absolute;
   width: 800px;
-  top: 270px;
-  border-top: 1px solid #fff;
+  top: 275px;
   text-align: center;
 }
 .signature {
@@ -16,13 +16,14 @@ body {
 }
 .arrow {
   position: absolute;
-  left: -100px;
+  left: -50px;
   top: 50%;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 .avatar-wrapper {
   display: inline-block;
   vertical-align: middle;
+  margin-right: 8px;
 }
 .avatar {
   display: block;
@@ -39,12 +40,12 @@ body {
 .info {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 20px;
   text-align: left;
 }
 .name {
   color: #fff;
-  font-size: 20px;
+  font-size: 28px;
+  margin-bottom: 4px;
 }
 .location {
   color: #EFC611;

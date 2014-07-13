@@ -7,10 +7,12 @@
   <div class="wrapper">
     <div class="signature">
       <img class="arrow" src="./images/arrow.png">
-      <div class="avatar-wrapper">
-        <span class="avatar" style="background-image: url({{{avatar}}})"></span>
-        <img class="outline" src="./images/avatar-outline.png">
-      </div>
+      {{#if avatar}}
+        <div class="avatar-wrapper">
+          <span class="avatar" style="background-image: url({{{avatar}}})"></span>
+          <img class="outline" src="./images/avatar-outline.png">
+        </div>
+      {{/if}}
       <div class="info">
         <p class="name">{{{first}}} {{{last}}}</p>
         <p class="location">{{{city}}}, {{{state}}}</p>
