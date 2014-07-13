@@ -22,19 +22,31 @@ body {
 }
 .avatar-wrapper {
   display: inline-block;
+  vertical-align: middle;
 }
 .avatar {
   display: block;
-  width: 100px;
-  height: 100px;
-  background-position: top left;
-  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  border-radius: 50%;
 }
 .outline {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5px;
+  left: -5px;
 }
 .info {
-  display: inline-block
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  text-align: left;
+}
+.name {
+  color: #fff;
+  font-size: 20px;
+}
+.location {
+  color: #EFC611;
+  font-size: 14px;
 }
