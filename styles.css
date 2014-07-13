@@ -1,5 +1,25 @@
 body {
   width: 800px;
   height: 400px;
-  background: url(./images/background.jpg);
+  background: url(./images/background.jpg) top left no-repeat;
+}
+.wrapper {
+  position: absolute;
+  width: 100%;
+  top: 270px;
+  border-top: 1px solid #fff;
+  text-align: center;
+}
+.signature {
+  position: relative;
+  display: inline-block;
+}
+.arrow {
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  margin-top: -10px;
+}
+.avatar-wrapper {
+
 }
