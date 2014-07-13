@@ -1,0 +1,21 @@
+{
+  "title": "Common Core",
+  "description": "Make Common Core History",
+  "sizes": {
+    "twitter": {
+      "width": 800,
+      "height": 400,
+      "default": true
+    }
+  },
+  "styles": [
+    "./styles.css"
+  ],
+  "variables": {
+    "first": "Your",
+    "last": "Name",
+    "city": "Washington",
+    "state": "DC",
+    "avatar": "./images/avatar.png"
+  }
+}
