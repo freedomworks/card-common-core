@@ -28,15 +28,15 @@ body {
 }
 .avatar {
   display: block;
-  width: 75px;
-  height: 75px;
+  width: 105px;
+  height: 105px;
   background-size: cover;
   border-radius: 50%;
 }
 .outline {
   position: absolute;
-  top: -7px;
-  left: -7px;
+  top: -10px;
+  left: -10px;
 }
 .info {
   display: inline-block;
