@@ -35,8 +35,8 @@ body {
 }
 .outline {
   position: absolute;
-  top: -15px;
-  left: -15px;
+  top: -12px;
+  left: -12px;
 }
 .info {
   display: inline-block;
