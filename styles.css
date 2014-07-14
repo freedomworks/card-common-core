@@ -2,7 +2,7 @@ body {
   width: 800px;
   height: 400px;
   background: url(./images/background.jpg) top left no-repeat;
-  font-family: 'poxima-nova';
+  font-family: 'proxima-nova', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 .wrapper {
   position: absolute;
