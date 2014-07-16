@@ -17,7 +17,9 @@
       {{/if}}
       <div class="info">
         <p class="name">{{{first}}} {{{last}}}</p>
-        <p class="location">{{{city}}}, {{{state}}}</p>
+        <p class="location">
+          {{{city}}}{{#if state}}, {{/if}}{{#if city}}{{{state}}}{{else}}{{state_full}}{{/if}}
+        </p>
       </div>
       <div class="spacer"></div>
     </div>

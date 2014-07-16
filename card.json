@@ -16,6 +16,7 @@
     "last": "Name",
     "city": "Washington",
     "state": "DC",
+    "state_full": "District of Columbia",
     "avatar": "./images/avatar.png"
   }
 }
